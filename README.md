@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# XP262 - Governing AI with identity and access management
 
 ## Description
 
