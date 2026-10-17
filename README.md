@@ -2,19 +2,23 @@
 
 ## Description
 
-new stuff 
+This repository contains the material for the SAP TechEd 2026 session called XP262 - Governing AI with identity and access management.
 
-
-great stuff
 
 ## Overview
 
-This session introduces attendees to...
+In this hands-on TechEd session, you will follow a realistic end-to-end scenario that connects SAP Cloud Identity Services, SAP S/4HANA, and the SAP AFC Assistant (Joule). Starting from a blank slate, you will experience — and resolve — three progressive access failures, each exposing a different layer of the identity and authorization stack.
+
+You will learn how user identities flow from the SAP Identity Directory into S/4HANA via the Identity Provisioning Service, how group memberships in IdDS translate into Business Role assignments in S/4HANA, and how SAP Managed Jobs keep authorizations synchronized across the landscape. Finally, you will explore how access policies in the Identity Directory control which users can interact with AI-powered assistants like Joule.
+
+By the end of this session, you will have a solid, practical understanding of the full authorization chain — from identity provisioning to assistant-level access control — and the troubleshooting skills to diagnose and fix issues at each layer.
 
 ## Requirements
 
 The requirements to follow the exercises in this repository are...
+  kjhgkjg #
 
+  
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
