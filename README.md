@@ -15,52 +15,33 @@ By the end of this session, you will have a solid, practical understanding of th
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
-  kjhgkjg #
+N/A
 
 
-## Exercises
+## Chapters
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
 - [Chapter 1 - First Roadblock: No authorization, No Access](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - [Chapter 1.1 - Chapter 1 Sub Chapter 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Chapter 1.2 - Chapter 1 Sub Chapter 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Chapter 2 - Authorization Assignment: Business Roles in Identity Directory](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-- [Exercise 3 - Second Roadblock: Authorization Exists but Joule Still Fails](exercises/ex3/)
-    - [Exercise 3.1 - Exercise 3 Sub Exercise 1 Description](exercises/ex3#exercise-31-sub-exercise-1-description)
-    - [Exercise 3.2 - Exercise 3 Sub Exercise 2 Description](exercises/ex3#exercise-32-sub-exercise-2-description)
-- [Exercise 4 - Third Roadblock: Missing Access to the AFC Assistant Itself](exercises/ex4/)
-    - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4#exercise-41-sub-exercise-1-description)
-    - [Exercise 4.2 - Exercise 4 Sub Exercise 2 Description](exercises/ex4#exercise-42-sub-exercise-2-description)
-- [Exercise 5 - Success: The AFC Assistant Is Working](exercises/ex5/)
-    - [Exercise 5.1 - Exercise 5 Sub Exercise 1 Description](exercises/ex5#exercise-51-sub-exercise-1-description)
-    - [Exercise 5.2 - Exercise 5 Sub Exercise 2 Description](exercises/ex5#exercise-52-sub-exercise-2-description)
-- [Exercise 6 - More on SAP AI governance](exercises/ex6/)
-    - [Exercise 6.1 - Exercise 6 Sub Exercise 1 Description](exercises/ex6#exercise-61-sub-exercise-1-description)
-    - [Exercise 6.2 - Exercise 6 Sub Exercise 2 Description](exercises/ex6#exercise-62-sub-exercise-2-description)
+    - [Chapter 2.1 - Chapter 2 Sub Chapter 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Chapter 2.2 - Chapter 2 Sub Chapter 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Chapter 3 - Second Roadblock: Authorization Exists but Joule Still Fails](exercises/ex3/)
+    - [Chapter 3.1 - Chapter 3 Sub Chapter 1 Description](exercises/ex3#exercise-31-sub-exercise-1-description)
+    - [Chapter 3.2 - Chapter 3 Sub Chapter 2 Description](exercises/ex3#exercise-32-sub-exercise-2-description)
+- [Chapter 4 - Third Roadblock: Missing Access to the AFC Assistant Itself](exercises/ex4/)
+    - [Chapter 4.1 - Chapter 4 Sub Chapter 1 Description](exercises/ex4#exercise-41-sub-exercise-1-description)
+    - [Chapter 4.2 - Chapter 4 Sub Chapter 2 Description](exercises/ex4#exercise-42-sub-exercise-2-description)
+- [Chapter 5 - Success: The AFC Assistant Is Working](exercises/ex5/)
+    - [Chapter 5.1 - Chapter 5 Sub Chapter 1 Description](exercises/ex5#exercise-51-sub-exercise-1-description)
+    - [Chapter 5.2 - Chapter 5 Sub Chapter 2 Description](exercises/ex5#exercise-52-sub-exercise-2-description)
+- [Chapter 6 - More on SAP AI governance](exercises/ex6/)
+    - [Chapter 6.1 - Chapter 6 Sub Chapter 1 Description](exercises/ex6#exercise-61-sub-exercise-1-description)
+    - [Chapter 6.2 - Chapter 6 Sub Chapter 2 Description](exercises/ex6#exercise-62-sub-exercise-2-description)
 
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
-## Contributing
-Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
-
-## Code of Conduct
-Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
-
-## How to obtain support
-
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
 Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
