@@ -49,6 +49,6 @@ The SAP Agent Gateway is a technical component wihtin the customer landscape but
 
 ## Summary
 
-Now that you learned about Agent Identity, how SAP Cloud Identity Services acts as the central identity hub for authenticating and authorizing AI agents, and how the Agent Gateway enforces policy checks for both external A2A and internal SAP-managed agent communication, you have the foundational understanding to proceed with the hands-on exercises.
+Now that you learned about Agent Identity, how SAP Cloud Identity Services acts as the central identity hub for authenticating and authorizing AI agents, and how the Agent Gateway enforces policy checks for both external A2A and internal SAP-managed agent communication, you have the foundational understanding to proceed with the next chapter.
 
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
