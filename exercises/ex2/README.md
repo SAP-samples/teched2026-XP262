@@ -1,6 +1,6 @@
-# User Authorization Assignment: Business Roles in the back end
+# Second Roadblock: Business Roles in the back end
 
-## Exercise: Reaching out to the **Financial Closing Assistant**
+## 2.1 Exercise: Reaching out to the **Financial Closing Assistant**
 Let's check if now with the correct policy assignments it will work: 
 
 1. Return to your Joule Work UI  https://747238487.eu10.sapdas.cloud.sap/new/ 
@@ -14,7 +14,7 @@ Let's check if now with the correct policy assignments it will work:
 
 What could be the reason ? 
 
-## Demo: Checking back-end authorizations 
+## 2.2 Demo: Checking back-end authorizations 
 
 
 Coming back to the three layers if access assessment, what we will assess next will be the application authorization assignments. 

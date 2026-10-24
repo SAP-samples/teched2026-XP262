@@ -19,24 +19,26 @@ N/A
 
 ## Chapters
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
-- [Getting Started](exercises/ex0/)
-- [Chapter 1 - First Roadblock: No agent policies, No Access](exercises/ex1/)
-    - [Chapter 1.1 - Chapter 1 Sub Chapter 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Chapter 1.2 - Chapter 1 Sub Chapter 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Chapter 2 - Second Roadblock: Business Roles in the back end](exercises/ex2/)
-    - [Chapter 2.1 - Chapter 2 Sub Chapter 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Chapter 2.2 - Chapter 2 Sub Chapter 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-- [Chapter 3 - Third Roadblock: Authorization Exists but Joule Still Fails](exercises/ex3/)
-    - [Chapter 3.1 - Chapter 3 Sub Chapter 1 Description](exercises/ex3#exercise-31-sub-exercise-1-description)
-    - [Chapter 3.2 - Chapter 3 Sub Chapter 2 Description](exercises/ex3#exercise-32-sub-exercise-2-description)
-- [Chapter 4 - Success: The AFC Assistant Is Working](exercises/ex5/)
-    - [Chapter 5.1 - Chapter 5 Sub Chapter 1 Description](exercises/ex5#exercise-51-sub-exercise-1-description)
-    - [Chapter 5.2 - Chapter 5 Sub Chapter 2 Description](exercises/ex5#exercise-52-sub-exercise-2-description)
-- [Chapter 5 - More on SAP AI governance](exercises/ex6/)
-    - [Chapter 6.1 - Chapter 6 Sub Chapter 1 Description](exercises/ex6#exercise-61-sub-exercise-1-description)
-    - [Chapter 6.2 - Chapter 6 Sub Chapter 2 Description](exercises/ex6#exercise-62-sub-exercise-2-description)
+- [Agent Identity](exercises/ex0/)
+    - [Architecture](exercises/ex0/#architecture)
+    - [Key Architectural Concepts](exercises/ex0/#key-architectural-concepts)
+- [First Roadblock: No authorization, No Access](exercises/ex1/)
+    - [1.1 Exercise: Meet the Financial Closing Agent](exercises/ex1/#11-exercise-meet-the-financial-closing-agent)
+    - [1.2 Agent Access Governance – Three Layers of Access Assessment](exercises/ex1/#12-agent-access-governance--three-layers-of-access-assessment)
+    - [1.3 Demo: Checking application authorizations](exercises/ex1/#13-demo-checking-application-authorizations)
+- [Second Roadblock: Business Roles in the back end](exercises/ex2/)
+    - [2.1 Exercise: Reaching out to the Financial Closing Assistant](exercises/ex2/#21-exercise-reaching-out-to-the-financial-closing-assistant)
+    - [2.2 Demo: Checking back-end authorizations](exercises/ex2/#22-demo-checking-back-end-authorizations)
+- [Third Roadblock: Authorization Exists but Joule Still Fails](exercises/ex3/)
+    - [3.1 Exercise: Reaching out to the Financial Closing Assistant again](exercises/ex3/#31-exercise-reaching-out-to-the-financial-closing-assistant-again)
+    - [3.2 SAP-Managed Provisioning](exercises/ex3/#32-sap-managed-provisioning)
+    - [3.3 Demo: SAP-Managed Provisioning](exercises/ex3/#33-demo-sap-managed-provisioning)
+- [Success: The AFC Assistant Is Working](exercises/ex4/)
+    - [4.1 Exercise: Reaching out to the Financial Closing Assistant one last time](exercises/ex4/#41-exercise-reaching-out-to-the-financial-closing-assistant-one-last-time)
+- [More on SAP AI governance](exercises/ex5/)
+    - [5.1 Knowing What's Running: Governing AI Agents with SAP AI Agent Hub](exercises/ex5/#51-knowing-whats-running-governing-ai-agents-with-sap-ai-agent-hub)
+    - [5.2 Exercise: Finding the Financial Closing Assistant in SAP AI Agent Hub](exercises/ex5/#52-exercise-finding-the-financial-closing-assistant-in-sap-ai-agent-hub)
+    - [5.3 Other related TechEd sessions](exercises/ex5/#53-other-related-teched-sessions)
 
 
 ## License

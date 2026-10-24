@@ -1,6 +1,6 @@
-# Third Roadblock: Authorization Exists but Joule Still Fails
+# 3 Third Roadblock: Authorization Exists but Joule Still Fails
 
-## Exercise: Reaching out to the **Financial Closing Assistant** again
+## 3.1 Exercise: Reaching out to the **Financial Closing Assistant** again
 Let's check if now with the correct policy assignments it will work: 
 
 1. Return to your Joule Work UI  https://747238487.eu10.sapdas.cloud.sap/new/ 
@@ -14,7 +14,7 @@ Let's check if now with the correct policy assignments it will work:
 
 The reason for this is because the information from back-end was not synchronized in the SAP Cloud Identity Services centrally. SAP offers now SAP-managed functionality for achieving this, without having to change your IAM flows. The next chapter will explain how. 
 
-## SAP-Managed Provisioning
+## 3.2 SAP-Managed Provisioning
 
 The SAP-managed experience is introduced for example when activating Joule for SAP S/4HANA Cloud, or for SAP SuccessFactors — without yet requiring a landscape-wide consolidation of identities.
 
@@ -23,13 +23,13 @@ Each line-of-business application continues to keep its own users. What makes th
 Authentication for the scoped experience runs through SAP Cloud Identity Services for the SAP Business AI Platform (and SAP Joule WORK). Each connected SAP business application remains with the configured authentication and user lifecycle flows; each of those tenants acts in this scenario like an IdP. The successful authentication within one of the business applications is enough to initiate the session in Cloud Identity for the Business AI Platform. Authorization for the application remains defined and assigned within that application's domain.
 
 
-### Flow
+### 3.2.1 Flow
 1. The customer activates the SAP-managed experience (for example Joule) for one or more line-of-business applications.
 2. The application is integrated with SAP Cloud Identity Services. All roles or groups from the connected application get replicated as (visible) application-groups into the Identity Directory.
 3. Each application user gets (hidden) cached in the Identity Directory with the assigned application-groups.
 4. The user interacts with the scoped experience; identity and authentication are governed by SAP Cloud Identity Services, while authorization stays within the application.
 
-## Demo: SAP-Managed Provisioning
+## 3.3 Demo: SAP-Managed Provisioning
 
 With the activation of SAP
 

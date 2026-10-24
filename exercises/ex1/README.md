@@ -1,4 +1,4 @@
-# First Roadblock: No authorization, No Access
+# 1 First Roadblock: No authorization, No Access
 
 In this exercise, we will meet the Financial Closing Agent. 
 
@@ -47,11 +47,11 @@ This layer controls access to the agent itself. The agent gateway checks every i
 
 This layer limits which APIs the agent can call and which HTTP operations it can perform. The gateway checks the permissions carried in the agent’s token against the requested API and HTTP verb. If the required permission is missing, it immediately returns a `403 Forbidden` response—following the principle “fail early, fail cheap.” 
 
-### How the layers work together
+### 1.2.1 How the layers work together
 
 Permission to use an agent does not automatically grant permission to use every API, and permission to call an API does not override the target application’s business authorization rules. The diagram therefore separates user-to-agent access, agent-to-API permissions, and application-level authorization into distinct controls. Its “1st,” “2nd,” and “3rd” labels should not be confused with runtime execution order: the gateway checks block unauthorized requests before they reach the agent or target application, while application-specific checks take place in the target application itself. 
 
-## Demo: Checking application authorizations 
+## 1.3 Demo: Checking application authorizations 
 
 Let's check your user in the SAP Cloud Identity Services : 
 <br>![](/exercises/ex1/images/Ex1_8.png)
