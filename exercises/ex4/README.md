@@ -13,6 +13,7 @@ Let's check if now with the correct policy assignments it will work:
 <br>![](/exercises/ex3/images/Ex3_8.png)
 
 
+
 ## Summary
 
 You've now ...
