@@ -36,7 +36,7 @@ N/A
     - [3.3 Demo: SAP-Managed Provisioning](exercises/ex3/#33-demo-sap-managed-provisioning)
 - [Success: The AFC Assistant Is Working](exercises/ex4/)
     - [4.1 Exercise: Reaching out to the Financial Closing Assistant one last time](exercises/ex4/#41-exercise-reaching-out-to-the-financial-closing-assistant-one-last-time)
-- [More on SAP AI governance](exercises/ex5/)
+- [More on SAP AI Governance](exercises/ex5/)
     - [5.1 Knowing What's Running: Governing AI Agents with SAP AI Agent Hub](exercises/ex5/#51-knowing-whats-running-governing-ai-agents-with-sap-ai-agent-hub)
     - [5.2 Exercise: Finding the Financial Closing Assistant in SAP AI Agent Hub](exercises/ex5/#52-exercise-finding-the-financial-closing-assistant-in-sap-ai-agent-hub)
     - [5.3 Other related TechEd sessions](exercises/ex5/#53-other-related-teched-sessions)
