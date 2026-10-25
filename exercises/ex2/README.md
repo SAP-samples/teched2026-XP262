@@ -16,10 +16,10 @@ What could be the reason ?
 ## 2.2 Demo: Checking back-end authorizations 
 
 
-Coming back to the three layers if access assessment, what we will assess next will be the application authorization assignments. 
+Coming back to the three layers of access assessment, what we will assess next will be the application authorization assignments. 
 <br>![](/exercises/ex2/images/Ex2_1.png)
 
-For the scope of this session, we will assume that the second check (scoped-access risk) has been performed at agent deployment. 
+For the scope of this session, we will assume that the second check (scoped-access risk) has been performed during the agent development and deployment. 
 
 
 Let's check our user in the back-end system: 
