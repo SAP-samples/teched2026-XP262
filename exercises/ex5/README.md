@@ -32,7 +32,7 @@ third-party agents from Microsoft, Google, AWS, Databricks, ServiceNow, and othe
 
 ## 5.2 Exercise: Finding the Financial Closing Assistant in SAP AI Agent Hub 
 
-Now let's check our Assistant in SAP Ai Agent Hub
+Now let's check our Assistant in SAP AI Agent Hub
 
 1. Navigate to https://de-6.leanix.net/SolutionExperience7ce8f
 Your Username: xp262-0XX@bestrunsap.com, where XX is your seat number. Your Password: Acce$$teched26
