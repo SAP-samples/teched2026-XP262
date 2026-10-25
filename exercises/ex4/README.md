@@ -1,7 +1,7 @@
 # 4 Success: The AFC Assistant Is Working
 
 ## 4.1 Exercise: Reaching out to the **Financial Closing Assistant** one last time
-Let's check if now with the correct policy assignments it will work: 
+Let's check if now with the correct assignments it will work: 
 
 1. Return to your Joule Work UI  https://747238487.eu10.sapdas.cloud.sap/new/.
 Start a new conversation by pressing on **Conversations +** from the last side panel.
