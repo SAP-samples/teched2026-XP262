@@ -1,4 +1,4 @@
-# 1 First Roadblock: No authorization, No Access
+# 1 First Roadblock: No Authorization, No Access
 
 In this exercise, we will meet the Financial Closing Agent. 
 
@@ -8,8 +8,8 @@ In this exercise, we will meet the Financial Closing Agent.
 1. Click on https://747238487.eu10.sapdas.cloud.sap/new/  
 <br>![](/exercises/ex1/images/Ex1_0.png)
 
-Your Username is xp262-0XX@bestrunsap.com, where XX is your seat number. 
-Your Password is Init1234. Reset it to something easy to memorize. 
+Your Username:  xp262-0XX@bestrunsap.com, where XX is your seat number
+Your Password:  TechEd2026 
 
 2. Start a new conversation and choose from the drop-down menu the **Financial Closing Assistant**
 <br>![](/exercises/ex1/images/Ex1_1.png)
