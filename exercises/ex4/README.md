@@ -19,4 +19,4 @@ Start a new conversation by pressing on **Conversations +** from the last side p
 
 Now that you learned that even with correct back-end authorizations and SAP-Managed Provisioning in place, the Financial Closing Assistant may still not return fully complete results. You understand that successful agent interactions depend on all three access governance layers working together, and that troubleshooting requires verifying each layer systematically.
 
-If you want to know [More on SAP AI governance](../ex3/README.md)follow us to the next chapter. 
+If you want to know [more on SAP AI governance](../ex5/README.md) follow us to the next chapter. 
