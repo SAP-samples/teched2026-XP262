@@ -17,7 +17,7 @@ third-party agents from Microsoft, Google, AWS, Databricks, ServiceNow, and othe
 - Where agents are deployed
 - Which business capabilities or process steps each agent supports
 - Which applications or systems the agent is connected to
-- mapping agents to your architecture and business landscape
+- Mapping agents to your architecture and business landscape
 
 3. **Models & MCP Servers:** Beyond agents
 - You also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry.
