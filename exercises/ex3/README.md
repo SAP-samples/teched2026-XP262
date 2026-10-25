@@ -1,7 +1,7 @@
 # 3 Third Roadblock: Authorization Exists but Joule Still Fails
 
 ## 3.1 Exercise: Reaching out to the **Financial Closing Assistant** again
-Let's check if now with the correct policy assignments it will work: 
+Let's check if now with the correct business role assignments it will work: 
 
 1. Return to your Joule Work UI  https://747238487.eu10.sapdas.cloud.sap/new/ 
 
@@ -17,22 +17,20 @@ The reason for this is because the information from back-end was not synchronize
 
 The SAP-managed experience is introduced for example when activating Joule for SAP S/4HANA Cloud, or for SAP SuccessFactors — without yet requiring a landscape-wide consolidation of identities.
 
-Each line-of-business application continues to keep its own users. What makes this stage managed rather than merely isolated is that every user is cached (hidden) in the Identity Directory of SAP Cloud Identity Services from the connected applications. This allows the SAP Business AI Platform to use SAP Cloud Identity Services as its Identity and Access Management interface and as a central user and role store for filtering agentic communication.
+Each line-of-business application continues to keep its own users. What makes this stage managed rather than merely isolated is that every user is shadowed (hidden) in the Identity Directory of SAP Cloud Identity Services from the connected applications. This allows the SAP Business AI Platform to use SAP Cloud Identity Services as its Identity and Access Management interface and as a central user and role store for filtering agentic communication.
 
-Authentication for the scoped experience runs through SAP Cloud Identity Services for the SAP Business AI Platform (and SAP Joule WORK). Each connected SAP business application remains with the configured authentication and user lifecycle flows; each of those tenants acts in this scenario like an IdP. The successful authentication within one of the business applications is enough to initiate the session in Cloud Identity for the Business AI Platform. Authorization for the application remains defined and assigned within that application's domain.
+Authentication for the scoped experience runs through SAP Cloud Identity Services for the SAP Business AI Platform (and SAP Joule Work). Each connected SAP business application remains with the configured authentication and user lifecycle flows; each of those tenants acts in this scenario like an IdP. The successful authentication within one of the business applications is enough to initiate the session in Cloud Identity for the Business AI Platform. Authorization for the application remains defined and assigned within that application's domain.
 
 
 ### 3.2.1 Flow
 1. The customer activates the SAP-managed experience (for example Joule) for one or more line-of-business applications.
 2. The application is integrated with SAP Cloud Identity Services. All roles or groups from the connected application get replicated as (visible) application-groups into the Identity Directory.
-3. Each application user gets (hidden) cached in the Identity Directory with the assigned application-groups.
+3. Each application user gets (hidden) shadowed in the Identity Directory with the assigned application-groups.
 4. The user interacts with the scoped experience; identity and authentication are governed by SAP Cloud Identity Services, while authorization stays within the application.
 
 ## 3.3 Demo: SAP-Managed Provisioning
 
-With the activation of SAP
-
-1. In the Provisioning tab we can see that the **SAP-Managed Provisioning** is not enabled. Let's try to enable it. 
+1. In the Provisioning tab we can see that the **SAP-managed Provisioning** is not enabled. Let's try to enable it. 
 <br>![](/exercises/ex3/images/Ex3_1.png)
 
 
@@ -45,8 +43,8 @@ The user must either:
 
 We will map the local group to the corresponding one
 
-3.  A second nested dialog has opened on top. This is the group mapping picker — triggered when the user clicked the copy/map icon in the right column next to S4HC_Cust_SMJ_Z_FINANCIAL_AGENTS. The dialog shows the available groups from the SAP S/4HANA Cloud – Sales Demo Customizing Tenant SMJ application side, with a search field at the top and one result: **Z_FINANCIAL_AGENTS** 
-This is the corresponding group on the S/4HANA application side that the local Identity Directory group (S4HC_Cust_SMJ_Z_FINANCIAL_AGENTS) should be mapped to. The user selects Z_FINANCIAL_AGENTS to establish the mapping between the two groups, resolving the conflict and allowing the SAP-Managed Provisioning enablement to proceed.
+3.  A second nested dialog has opened on top. This is the group mapping picker triggered when the user clicked the copy/map icon in the right column next to S4HC_Cust_Z_FINANCIAL_AGENTS. The dialog shows the available groups from the SAP S/4HANA Cloud – Sales Demo Customizing Tenant  application side, with a search field at the top and one result: **Z_FINANCIAL_AGENTS** 
+This is the corresponding group on the S/4HANA application side that the local Identity Directory group (S4HC_Cust_Z_FINANCIAL_AGENTS) should be mapped to. The user selects Z_FINANCIAL_AGENTS to establish the mapping between the two groups, resolving the conflict and allowing the SAP-Managed Provisioning enablement to proceed.
 <br>![](/exercises/ex3/images/Ex3_3.png)
 
 4. The group mapping is now complete. The conflict has been resolved:
@@ -70,7 +68,7 @@ The group mapping confirmed in Step 1 is displayed here for final review.
 
 The preference chosen in Step 2 is confirmed — the group name from the Local Identity Directory will be used as the canonical name going forward.
 
-The "Enable" button is now active (blue) at the bottom. Clicking it will finalise the switch to SAP-Managed Provisioning for the SAP S/4HANA Cloud – Sales Demo Customizing Tenant SMJ application, applying the group mapping and preferred name choice in one action.
+The "Enable" button is now active (blue) at the bottom. Clicking it will finalise the switch to SAP-Managed Provisioning for the SAP S/4HANA Cloud – Sales Demo Customizing Tenant application, applying the group mapping and preferred name choice in one action.
 
 7. The wizard is now closed and the result is visible on the application's Provisioning tab for SAP S/4HANA Cloud – Sales Demo Customizing Tenant.
 <br>![](/exercises/ex3/images/Ex3_7.png)
