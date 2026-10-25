@@ -20,15 +20,15 @@ third-party agents from Microsoft, Google, AWS, Databricks, ServiceNow, and othe
 - Mapping agents to your architecture and business landscape
 
 3. **Models & MCP Servers:** Beyond agents
-- You also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry.
+- You also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry
 
 4. **Performance & Observability:** How agents are performing (goal completion, policy conformance, business impact)
 - Agent behavior and usage patterns
-- Identify redundancies or underperforming agents.
+- Identify redundancies or underperforming agents
 
 5. **Governance & Risk:** Policy conformance across agents
 - Ownership tracking who is responsible for each agent
-- Foundation for access control and audit of agent activity.
+- Foundation for access control and audit of agent activity
 
 ## 5.2 Exercise: Finding the Financial Closing Assistant in SAP AI Agent Hub 
 
