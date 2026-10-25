@@ -8,7 +8,7 @@ Let's check if now with the correct policy assignments it will work:
 2. Try the same prompt again: *Create journal entry proposals for company code 1010*
 <br>![](/exercises/ex1/images/Ex1_2.png)
 
-4. Notice that the answer is still not quite useful ..
+4. Notice that the answer is still not quite useful...
 <br>![](/exercises/ex1/images/Ex1_3.png)
 
 What could be the reason ? 

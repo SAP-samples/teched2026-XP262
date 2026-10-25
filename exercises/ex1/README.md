@@ -8,9 +8,7 @@ In this exercise, we will meet the Financial Closing Agent.
 1. Click on https://747238487.eu10.sapdas.cloud.sap/new/  
 <br>![](/exercises/ex1/images/Ex1_0.png)
 
-Your Username:  xp262-0XX@bestrunsap.com, where XX is your seat number
-
-Your Password:  TechEd2026 
+Your Username:  xp262-0XX@bestrunsap.com, where XX is your seat number. Your Password:  TechEd2026 
 
 2. Start a new conversation and choose from the drop-down menu the **Financial Closing Assistant**
 <br>![](/exercises/ex1/images/Ex1_1.png)
@@ -18,7 +16,7 @@ Your Password:  TechEd2026
 3. Try the following prompt: *Create journal entry proposals for company code 1010*
 <br>![](/exercises/ex1/images/Ex1_2.png)
 
-4. Notice that the answer is not quite useful ..
+4. Notice that the answer is not quite useful...
 <br>![](/exercises/ex1/images/Ex1_3.png)
 
 What could be the reason ? 
@@ -30,19 +28,19 @@ The following diagram illustrates the three layers of access assessment​.
 <br>![](/exercises/ex1/images/Ex1_4.png)
 
 The layers are complementary and represent the **authorization** for AI agents.
- Each layer answers a different question: Is the action allowed by the application? May the user invoke the agent? And may the agent call the required API? Together, these checks address different access risks rather than replacing one another.
+ Each layer answers a different question: May the user invoke the agent? And may the agent call the required API? Is the action allowed by the application? Together, these checks address different access risks rather than replacing one another.
 
- 1. Application authorizations: Is the business action allowed?
-
-The target application remains responsible for enforcing its own authorization rules. These can include ABAP roles, restrictions on specific business objects or instances, and attribute-based checks. Even when a request comes through an agent, the application checks whether the action is permitted and rejects unauthorized requests at the application level. 
-
- 2. Agent access: May this user invoke the agent?
+ 1. Agent access: May this user invoke the agent?
 
 This layer controls access to the agent itself. The agent gateway checks every incoming request to determine whether the user has permission to invoke that agent. The diagram describes these access controls as automatically generated at deployment time. If the user lacks permission, the gateway blocks the request before it reaches the agent. 
 
- 3. Scoped access: May the agent call this API?
+ 2. Scoped access: May the agent call this API?
 
 This layer limits which APIs the agent can call and which HTTP operations it can perform. The gateway checks the permissions carried in the agent’s token against the requested API and HTTP verb. If the required permission is missing, it immediately returns a `403 Forbidden` response—following the principle “fail early, fail cheap.” 
+
+3. Application authorizations: Is the business action allowed?
+
+The target application remains responsible for enforcing its own authorization rules. These can include ABAP roles, restrictions on specific business objects or instances, and attribute-based checks. Even when a request comes through an agent, the application checks whether the action is permitted and rejects unauthorized requests at the application level. 
 
 ### 1.2.1 How the layers work together
 
@@ -68,7 +66,7 @@ First, to be efficient, we will create a user group that will contain all the us
 
 This is how the assignment will work:
 
-1. In the SCI console, navigate to *Users & Authoriozations* -> *Greoups* and press on **Create**. Fill in the **Name** and **Display Name** fields. Press on **Next Step**
+1. In the SCI console, navigate to *Users & Authoriozations* -> *Groups* and press on **Create**. Fill in the **Name** and **Display Name** fields. Press on **Next Step**
 <br>![](/exercises/ex1/images/Ex1_9.png)
 
 2. Do not add and **Application** here, as we want to create a *user group*.
