@@ -34,6 +34,6 @@ So we will proceed with the assignment in the back end:
 
 ## Summary
 
-Now that you learned how to verify and assign back-end application authorizations — by checking your user's business roles in the back-end system and assigning the missing permissions — you understand that having agent access alone is not sufficient, and that the application-level authorization layer must also be fulfilled before the Financial Closing Assistant can successfully process your requests.
+Now that you learned how to verify and assign back-end application authorizations by checking your user's business roles in the back-end system and assigning the missing permissions you understand that having agent access alone is not sufficient, and that the application-level authorization layer must also be fulfilled before the Financial Closing Assistant can successfully process your requests.
 
 Continue to - [Third Roadblock: Authorization Exists but Joule Still Fails](../ex3/README.md)

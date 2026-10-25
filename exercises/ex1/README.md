@@ -92,7 +92,7 @@ This is how the assignment will work:
 
 ## Summary
 
-Now that you learned about the three layers of Agent Access Governance — application authorizations that enforce business-level permissions, agent access controls that determine whether a user may invoke an agent, and scoped access that restricts which APIs an agent can call — you understand why your first interaction with the Financial Closing Agent failed and how assigning the agent policies in SAP Cloud Identity Services *might* resolves the issue.
+Now that you learned about the three layers of Agent Access Governance application authorizations that enforce business-level permissions, agent access controls that determine whether a user may invoke an agent, and scoped access that restricts which APIs an agent can call you understand why your first interaction with the Financial Closing Agent failed and how assigning the agent policies in SAP Cloud Identity Services *might* resolves the issue.
 
 Continue to - [Second Roadblock: Business Roles in the back end](../ex2/README.md)
 

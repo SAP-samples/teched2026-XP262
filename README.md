@@ -7,12 +7,12 @@ This repository contains the material for the SAP TechEd 2026 session called XP2
 
 ## Overview
 
-This hands-on session walks participants through a realistic, end-to-end scenario covering the full identity and access management chain for AI agents in an SAP landscape. Using the __Financial Closing Assistant__ as the central use case, attendees encounter — and resolve — three progressive access failures, each revealing a different layer of the authorization stack.
+This hands-on session walks participants through a realistic, end-to-end scenario covering the full identity and access management chain for AI agents in an SAP landscape. Using the __Financial Closing Assistant__ as the central use case, attendees encounter and resolve three progressive access failures, each revealing a different layer of the authorization stack.
 
-__Key takeaway:__ Governing AI agents requires the same rigor as governing human users. The session demonstrates that identity, authentication, and authorization for AI agents must be managed across multiple layers — agent access policies, application-level business roles, and centralized identity provisioning — and that SAP Cloud Identity Services provides the unified foundation for all of it.
+__Key takeaway:__ Governing AI agents requires the same rigor as governing human users. The session demonstrates that identity, authentication, and authorization for AI agents must be managed across multiple layers — agent access policies, application-level business roles, and centralized identity provisioning and that SAP Cloud Identity Services provides the unified foundation for all of it.
 
 
-By the end of this session, you will have a solid, practical understanding of the full authorization chain — from identity provisioning to assistant-level access control — and the troubleshooting skills to diagnose and fix issues at each layer.
+By the end of this session, you will have a solid, practical understanding of the full authorization chain from identity provisioning to assistant-level access control and the troubleshooting skills to diagnose and fix issues at each layer.
 
 ## Requirements
 

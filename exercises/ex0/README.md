@@ -1,13 +1,13 @@
 # Agent Identity
 
-The Agent Identity is a foundational concept within the SAP AI Agent Governance framework. It represents the identity artifacts required to authenticate, authorize, and govern AI agents operating within an SAP landscape. Just as human users require identity records to access enterprise systems, AI agents—whether built on SAP technology or by third parties—require a dedicated identity that defines their boundaries, permissions, and allowed interactions.
+The Agent Identity is a foundational concept within the SAP AI Agent Governance framework. It represents the identity artifacts required to authenticate, authorize, and govern AI agents operating within an SAP landscape. Just as human users require identity records to access enterprise systems, AI agents, whether built on SAP technology or by third parties, require a dedicated identity that defines their boundaries, permissions, and allowed interactions.
 
-SAP Cloud Identity Services acts as the central identity hub for both human identities and agent identities. By storing agent identities alongside human identities in the Identity Directory, enterprises gain a unified governance model that leverages existing IAM infrastructure—including authentication, federation, identity provisioning, and authorization management—for the new class of autonomous AI actors.
+SAP Cloud Identity Services acts as the central identity hub for both human identities and agent identities. By storing agent identities alongside human identities in the Identity Directory, enterprises gain a unified governance model that leverages existing IAM infrastructure including authentication, federation, identity provisioning, and authorization management—for the new class of autonomous AI actors.
 
 
 ## Architecture
 
-The following diagram shows the major components of the SAP Joule integration from an IAM perspective at a leadership level. SAP Cloud Identity Services (SCI) act as the central interface containing the SAP-landscape-relevant human identities and agent identities. SCI integrates with the SAP applications in scope in an SAP-managed way. This architecture is a key pillar in the Agent Governance framework for an SAP landscape.
+The following diagram shows the major components of the SAP Joule integration from an IAM perspective. SAP Cloud Identity Services (SCI) act as the central interface containing the SAP landscape relevant human identities and agent identities. SCI integrates with the SAP applications in scope in an SAP-managed way. This architecture is a key pillar in the Agent Governance framework for an SAP landscape.
 
 The Agent Identity is a mandatory requirement to ensure the secure authentication and authorization of AI Agents in an SAP landscape.
 
