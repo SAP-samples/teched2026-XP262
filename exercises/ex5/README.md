@@ -5,20 +5,21 @@
 The SAP AI Agent Hub (built on SAP LeanIX, now GA) gives you a single command center view of your entire AI agent landscape. Here is what you can see:
 
 What you can see in SAP AI Agent Hub
-1. **Agent Inventory:** — all agents in your landscape
-A unified registry of every agent operating in your environment, regardless of origin:
+1. **Agent Inventory:** all agents in your landscape
 
+A unified registry of every agent operating in your environment, regardless of origin:
 SAP-built agents (Joule agents, S/4HANA agents, SuccessFactors agents, etc.),
 custom agents built in Joule Studio or elsewhere,
 third-party agents from Microsoft, Google, AWS, Databricks, ServiceNow, and others. 
 For each agent you see: identity (name, description, provider), service endpoint, classification, status, and ownership. 
 
 2. **Business context:** where agents are deployed
+
 Which business capabilities or process steps each agent supports
 Which applications or systems the agent is connected to
 mapping agents to your architecture and business landscape.
-3. **Models & MCP Servers:**
-Beyond agents you also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry.
+3. **Models & MCP Servers:** Beyond agents
+You also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry.
 
 4. **Performance & Observability:** 
 How agents are performing (goal completion, policy conformance, business impact)
