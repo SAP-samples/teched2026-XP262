@@ -49,18 +49,18 @@ This is the corresponding group on the S/4HANA application side that the local I
 
 4. The group mapping is now complete. The conflict has been resolved:
 <br>![](/exercises/ex3/images/Ex3_4.png)
-The right column now shows Z_FINANCIAL_AGENTS filled in — the local Identity Directory group has been successfully mapped to its corresponding group on the S/4HANA application side. The "Next Step" button is now active (blue), indicating the conflict is resolved and the wizard can proceed.
+The right column now shows Z_FINANCIAL_AGENTS filled in the local Identity Directory group has been successfully mapped to its corresponding group on the S/4HANA application side. The "Next Step" button is now active (blue), indicating the conflict is resolved and the wizard can proceed.
 
-The user clicks Next Step to move to Step 2 — **Choose Preferred Name**.
+The user clicks Next Step to move to Step 2 **Choose Preferred Name**.
 
 5. What is happening: The user must decide which group name should be used as the preferred/canonical name for the provisioned groups going forward. Two options are presented:
 <br>![](/exercises/ex3/images/Ex3_5.png)
 
 Local Identity Directory is currently selected (radio button filled). This means the existing local group name in IdDS will be kept as the preferred name for the application-specific group after SAP-Managed Provisioning is enabled.
 
-The "Review" button is active (blue) — hovering over it shows the tooltip "Review" — and the user clicks it to proceed to Step 3 — Summary to review all choices before finalising the switch to SAP-Managed Provisioning.
+The "Review" button is active (blue) hovering over it shows the tooltip "Review" and the user clicks it to proceed to Step 3 **Summary** to review all choices before finalising the switch to SAP-Managed Provisioning.
 
-6. The wizard is now on Step 3 — Summary, the final review step before SAP-Managed Provisioning is activated.
+6. The wizard is now on Step 3 **Summary**, the final review step before SAP-Managed Provisioning is activated.
 
 What is shown:
 <br>![](/exercises/ex3/images/Ex3_6.png)
@@ -73,11 +73,11 @@ The "Enable" button is now active (blue) at the bottom. Clicking it will finalis
 7. The wizard is now closed and the result is visible on the application's Provisioning tab for SAP S/4HANA Cloud – Sales Demo Customizing Tenant.
 <br>![](/exercises/ex3/images/Ex3_7.png)
 
-SAP-Managed Provisioning has been successfully switched on — the toggle is now blue/active. Central Store-Based Provisioning is turned off (the two are mutually exclusive).
+SAP-Managed Provisioning has been successfully switched on: the toggle is now in active state. Central Store-Based Provisioning is turned off (the two are mutually exclusive).
 
 
 ## Summary
 
-Now that you learned how to enable SAP-Managed Provisioning — by resolving group conflicts through the mapping wizard, linking local Identity Directory groups to their corresponding S/4HANA application groups, choosing a preferred group name, and activating the provisioning toggle — you understand how group memberships in the Identity Directory are synchronized with application-side authorizations, ensuring that users and their business role assignments stay consistent across the SAP landscape.
+Now that you learned how to enable SAP-Managed Provisioning — by resolving group conflicts through the mapping wizard, linking local Identity Directory groups to their corresponding S/4HANA application groups, choosing a preferred group name, and activating the provisioning toggle you understand how group memberships in the Identity Directory are synchronized with application-side authorizations, ensuring that users and their business role assignments stay consistent across the SAP landscape.
 
 Continue to - [Success: The AFC Assistant Is Working](../ex4/README.md)
