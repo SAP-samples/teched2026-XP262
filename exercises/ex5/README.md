@@ -11,7 +11,7 @@ SAP-built agents (Joule agents, S/4HANA agents, SuccessFactors agents, etc.),
 custom agents built in Joule Studio or elsewhere,
 third-party agents from Microsoft, Google, AWS, Databricks, ServiceNow, and others. 
 
-   - For each agent you see: identity (name, description, provider), service endpoint, classification, status, and ownership. 
+- For each agent you see: identity (name, description, provider), service endpoint, classification, status, and ownership. 
 
 2. **Business context:** 
 - Where agents are deployed
