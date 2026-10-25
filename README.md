@@ -7,9 +7,10 @@ This repository contains the material for the SAP TechEd 2026 session called XP2
 
 ## Overview
 
-In this hands-on TechEd session, you will follow a realistic end-to-end scenario that connects SAP Cloud Identity Services, SAP S/4HANA, and the SAP AFC Assistant (Joule). Starting from a blank slate, you will experience — and resolve — three progressive access failures, each exposing a different layer of the identity and authorization stack.
+This hands-on session walks participants through a realistic, end-to-end scenario covering the full identity and access management chain for AI agents in an SAP landscape. Using the __Financial Closing Assistant__ as the central use case, attendees encounter — and resolve — three progressive access failures, each revealing a different layer of the authorization stack.
 
-You will learn how user identities flow from the SAP Cloud Identity Services - Identity Directory (IdDS) into S/4HANA via the Identity Provisioning Service, how group memberships in IdDS translate into Business Role assignments in S/4HANA, and how SAP Managed Joule keep authorizations and users synchronized across the landscape. Finally, you will explore how access policies in the Identity Directory control which users can interact with AI-powered assistants like Joule.
+__Key takeaway:__ Governing AI agents requires the same rigor as governing human users. The session demonstrates that identity, authentication, and authorization for AI agents must be managed across multiple layers — agent access policies, application-level business roles, and centralized identity provisioning — and that SAP Cloud Identity Services provides the unified foundation for all of it.
+
 
 By the end of this session, you will have a solid, practical understanding of the full authorization chain — from identity provisioning to assistant-level access control — and the troubleshooting skills to diagnose and fix issues at each layer.
 
