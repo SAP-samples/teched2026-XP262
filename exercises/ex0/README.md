@@ -7,7 +7,7 @@ SAP Cloud Identity Services acts as the central identity hub for both human iden
 
 ## Architecture
 
-The following diagram shows the major components of the SAP Joule integration from an IAM perspective. SAP Cloud Identity Services (SCI) act as the central interface containing the SAP landscape relevant human identities and agent identities. SCI integrates with the SAP applications in scope in an SAP-managed way. This architecture is a key pillar in the Agent Governance framework for an SAP landscape.
+The following diagram shows the major components of the SAP Joule integration from an IAM perspective. SAP Cloud Identity Services (SCI) act as the central interface containing the SAP landscape relevant human identities and agent identities. SCI integrate with the SAP applications in scope in an SAP-managed way. This architecture is a key pillar in the Agent Governance framework for an SAP landscape.
 
 The Agent Identity is a mandatory requirement to ensure the secure authentication and authorization of AI Agents in an SAP landscape.
 
@@ -17,7 +17,7 @@ The Agent Identity is a mandatory requirement to ensure the secure authenticatio
 ## Key Architectural Concepts
 
 ### SAP Cloud Identity Services as the Agent Identity Store
-SAP Cloud Identity Services serves as the single source of truth for both human and agent identities within the SAP landscape:
+SAP Cloud Identity Services serve as the single source of truth for both human and agent identities within the SAP landscape:
 
 * Identity Directory stores agent identities and human identities, each with a Global User ID that enables cross-application identity linking.
 * Identity Authentication handles the authentication of agents (and humans) using protocols such as OIDC, including federation with third-party identity providers.
