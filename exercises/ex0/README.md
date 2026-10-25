@@ -43,12 +43,12 @@ The SAP Agent Gateway is a technical component wihtin the customer landscape, bu
 * **Policy enforcement points exist at multiple levels**: at the gateway entry (it checks if the calling  human or agent user has access to call the dedicated agent), before agent-to-agent hand-off, and at the target application (the policy enforcement point between an agent and the API/tools/MCP will be released in H2/2026). The authZ check in the SAP Cloud application is built on the well established authorization concepts of SAP applications. This layered approach ensures unauthorized requests are rejected early, minimizing unnecessary network traffic and processing.
 
 ### Other Services & Components
-* **SAP AI Agent Hub	Agent Governance** — cataloging and managing agent landscapes
-* **SAP Cloud ALM	Agent Lifecycle Governance** — managing the lifecycle of agents from development to decommissioning
-* **SAP4ME**	Provisioning of agent identities and configurations across the SAP landscape
+* **SAP AI Agent Hub	Agent Governance**: cataloging and managing agent landscapes
+* **SAP Cloud ALM	Agent Lifecycle Governance**: managing the lifecycle of agents from development to decommissioning
+* **SAP4ME**: provisioning of agent identities and configurations across the SAP landscape
 
 ## Summary
 
-Now that you learned about Agent Identity, how SAP Cloud Identity Services acts as the central identity hub for authenticating and authorizing AI agents, and how the Agent Gateway enforces policy checks for both external A2A and internal SAP-managed agent communication, you have the foundational understanding to proceed with the next chapter.
+Now that you learned about Agent Identity, how SAP Cloud Identity Services act as the central identity hub for authenticating and authorizing AI agents, and how the Agent Gateway enforces policy checks for both external A2A and internal SAP-managed agent communication, you have the foundational understanding to proceed with the next chapter.
 
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
