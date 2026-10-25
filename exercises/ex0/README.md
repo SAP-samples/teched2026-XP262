@@ -34,13 +34,13 @@ SAP Joule is the brand which contains several SAP Business AI aspects like the c
 4. Conversations are directed to the right agents, and each interaction is limited by the user’s access rights and what the agent is allowed to do.
 
 ### Agent Gateway for A2A Communication
-The SAP Agent Gateway is a technical component wihtin the customer landscape but besides the A2A external endpoint transparent for the customer and fully SAP-managed. It provides the communication fabric for agent interactions:
+The SAP Agent Gateway is a technical component wihtin the customer landscape, but besides the A2A external endpoint transparent for the customer and fully SAP-managed. It provides the communication fabric for agent interactions:
  
 * **External (A2A interface for third parties)**: Third-party agents connect to the Agent Gateway using the A2A protocol. Before any interaction, the third-party agent must authenticate through SAP Cloud Identity Services. The gateway enforces policy checks to validate whether the external agent's identity is authorized to communicate with the target SAP agent.
 
 * **Internal (SAP-managed agent communication)**: When the Joule orchestrator dispatches work to agents on SAP technology, the Agent Gateway wraps the communication. It applies policy checks and authorization verification at each step, ensuring agents only invoke permitted APIs or tools on the target SAP applications (cloud or private cloud).
 
-* **Policy enforcement points exist at multiple levels**: at the gateway entry (it checks if the calling user (human/agent) has access to call the dedicated agent), before agent-to-agent hand-off , and at the target application (The policy enforcement point between an agent and the API/tools/MCP will be released in H2/2026). The authZ check in the SAP Cloud application is built on the well established authorization concepts of SAP applications. This layered approach ensures unauthorized requests are rejected early, minimizing unnecessary network traffic and processing.
+* **Policy enforcement points exist at multiple levels**: at the gateway entry (it checks if the calling  human or agent user has access to call the dedicated agent), before agent-to-agent hand-off, and at the target application (the policy enforcement point between an agent and the API/tools/MCP will be released in H2/2026). The authZ check in the SAP Cloud application is built on the well established authorization concepts of SAP applications. This layered approach ensures unauthorized requests are rejected early, minimizing unnecessary network traffic and processing.
 
 ### Other Services & Components
 * **SAP AI Agent Hub	Agent Governance** — cataloging and managing agent landscapes
