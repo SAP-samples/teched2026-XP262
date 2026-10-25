@@ -6,22 +6,18 @@ In this exercise, we will meet the Financial Closing Agent.
 
 
 1. Click on https://747238487.eu10.sapdas.cloud.sap/new/  
-
 <br>![](/exercises/ex1/images/Ex1_0.png)
 
 Your Username is xp262-0XX@bestrunsap.com, where XX is your seat number. 
 Your Password is Init1234. Reset it to something easy to memorize. 
 
 2. Start a new conversation and choose from the drop-down menu the **Financial Closing Assistant**
-
 <br>![](/exercises/ex1/images/Ex1_1.png)
 
 3. Try the following prompt: *Create journal entry proposals for company code 1010*
-
 <br>![](/exercises/ex1/images/Ex1_2.png)
 
 4. Notice that the answer is not quite useful ..
-
 <br>![](/exercises/ex1/images/Ex1_3.png)
 
 What could be the reason ? 

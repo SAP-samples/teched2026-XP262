@@ -6,7 +6,6 @@ Let's check if now with the correct policy assignments it will work:
 1. Return to your Joule Work UI  https://747238487.eu10.sapdas.cloud.sap/new/ 
 
 2. Try the same prompt again: *Create journal entry proposals for company code 1010*
-
 <br>![](/exercises/ex1/images/Ex1_2.png)
 
 4. Notice that the answer is still not quite useful ..
