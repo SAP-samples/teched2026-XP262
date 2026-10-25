@@ -78,6 +78,6 @@ SAP-Managed Provisioning has been successfully switched on: the toggle is now in
 
 ## Summary
 
-Now that you learned how to enable SAP-Managed Provisioning — by resolving group conflicts through the mapping wizard, linking local Identity Directory groups to their corresponding S/4HANA application groups, choosing a preferred group name, and activating the provisioning toggle you understand how group memberships in the Identity Directory are synchronized with application-side authorizations, ensuring that users and their business role assignments stay consistent across the SAP landscape.
+Now that you learned how to enable SAP-Managed Provisioning by resolving group conflicts through the mapping wizard, linking local Identity Directory groups to their corresponding S/4HANA application groups, choosing a preferred group name, and activating the provisioning toggle you understand how group memberships in the Identity Directory are synchronized with application-side authorizations, ensuring that users and their business role assignments stay consistent across the SAP landscape.
 
 Continue to - [Success: The AFC Assistant Is Working](../ex4/README.md)
