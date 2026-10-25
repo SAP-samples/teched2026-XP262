@@ -28,7 +28,7 @@ The following diagram illustrates the three layers of access assessment​.
 <br>![](/exercises/ex1/images/Ex1_4.png)
 
 The layers are complementary and represent the **authorization** for AI agents.
- Each layer answers a different question: May the user invoke the agent? And may the agent call the required API? Is the action allowed by the application? Together, these checks address different access risks rather than replacing one another.
+ Each layer answers a different question: May the user invoke the agent? May the agent call the required API? Is the action allowed by the application? Together, these checks address different access risks rather than replacing one another.
 
  1. Agent access: May this user invoke the agent?
 
@@ -36,11 +36,11 @@ This layer controls access to the agent itself. The agent gateway checks every i
 
  2. Scoped access: May the agent call this API?
 
-This layer limits which APIs the agent can call and which HTTP operations it can perform. The gateway checks the permissions carried in the agent’s token against the requested API and HTTP verb. If the required permission is missing, it immediately returns a `403 Forbidden` response—following the principle “fail early, fail cheap.” 
+This layer limits which APIs the agent can call and which HTTP operations it can perform. The gateway checks the permissions carried in the agent’s token against the requested API and HTTP verb. If the required permission is missing, it immediately returns a `403 Forbidden` response, following the principle “fail early, fail cheap.” 
 
 3. Application authorizations: Is the business action allowed?
 
-The target application remains responsible for enforcing its own authorization rules. These can include ABAP roles, restrictions on specific business objects or instances, and attribute-based checks. Even when a request comes through an agent, the application checks whether the action is permitted and rejects unauthorized requests at the application level. 
+The target application remains responsible for enforcing its own authorization rules. These can include restrictions on specific business objects or instances, and attribute-based checks. Even when a request comes through an agent, the application checks whether the action is permitted and rejects unauthorized requests at the application level. 
 
 ### 1.2.1 How the layers work together
 
@@ -62,26 +62,26 @@ We notice that your user does not have policies to use the assistant. As the  [d
 - Financial Closing Orchestration Agent
 
 
-First, to be efficient, we will create a user group that will contain all the users that need access to the agent(s).Afterwards will add this user groups to all the agents. 
+First, to be efficient, we will create a user group that will contain all the users that need access to the agent(s). Afterwards will add this user groups to all the agents. 
 
 This is how the assignment will work:
 
-1. In the SCI console, navigate to *Users & Authoriozations* -> *Groups* and press on **Create**. Fill in the **Name** and **Display Name** fields. Press on **Next Step**
+1. In the SCI console, navigate to *Users & Authoriozations* -> *Groups* and press **Create**. Fill in the **Name** and **Display Name** fields. Press **Next Step**
 <br>![](/exercises/ex1/images/Ex1_9.png)
 
 2. Do not add and **Application** here, as we want to create a *user group*.
 <br>![](/exercises/ex1/images/Ex1_10.png)
 
-3. Check the **Summary** and press on **Finish**
+3. Check the **Summary** and press **Finish**
 <br>![](/exercises/ex1/images/Ex1_11.png)
 
-4. To the newly created user group, add your user: 
+4. Add your user to the newly created user group: 
 <br>![](/exercises/ex1/images/Ex1_12.png)
 
 5. Navigate to *Users & Authoriozations* -> *Agents* and search for the first agent : 
 <br>![](/exercises/ex1/images/Ex1_13.png)
 
-6. Press on **Manage Access** and search for the newly created user group.
+6. Press **Manage Access** and search for the newly created user group.
 <br>![](/exercises/ex1/images/Ex1_14.png)
 
 7. Review your change and press **Save**.
@@ -91,7 +91,7 @@ This is how the assignment will work:
 
 ## Summary
 
-Now that you learned about the three layers of Agent Access Governance application authorizations that enforce business-level permissions, agent access controls that determine whether a user may invoke an agent, and scoped access that restricts which APIs an agent can call you understand why your first interaction with the Financial Closing Agent failed and how assigning the agent policies in SAP Cloud Identity Services *might* resolves the issue.
+Now that you learned about the three layers of Agent Access Governance:  agent access controls that determine whether a user may invoke an agent, scoped access that restricts which APIs an agent can call and application authorizations that enforce business-level permissions, you understand why your first interaction with the Financial Closing Agent failed and how assigning the agent policies in SAP Cloud Identity Services *might* resolves the issue.
 
 Continue to - [Second Roadblock: Business Roles in the back end](../ex2/README.md)
 
