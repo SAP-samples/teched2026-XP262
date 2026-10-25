@@ -9,6 +9,7 @@ In this exercise, we will meet the Financial Closing Agent.
 <br>![](/exercises/ex1/images/Ex1_0.png)
 
 Your Username:  xp262-0XX@bestrunsap.com, where XX is your seat number
+
 Your Password:  TechEd2026 
 
 2. Start a new conversation and choose from the drop-down menu the **Financial Closing Assistant**
