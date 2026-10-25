@@ -67,5 +67,5 @@ Learn how SAP Cloud Identity Services provide the foundation for secure authenti
 
 You have successfully completed this material. 
 
-Thank you for choosing our session today ! 
+Thank you for choosing our session today! 
 
