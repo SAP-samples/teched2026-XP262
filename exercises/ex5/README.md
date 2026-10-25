@@ -13,13 +13,14 @@ third-party agents from Microsoft, Google, AWS, Databricks, ServiceNow, and othe
 
     For each agent you see: identity (name, description, provider), service endpoint, classification, status, and ownership. 
 
-2. **Business context:** where agents are deployed
-Which business capabilities or process steps each agent supports
-Which applications or systems the agent is connected to
-mapping agents to your architecture and business landscape.
+2. **Business context:** 
+- Where agents are deployed
+- Which business capabilities or process steps each agent supports
+- Which applications or systems the agent is connected to
+- mapping agents to your architecture and business landscape
 
 3. **Models & MCP Servers:** Beyond agents
-You also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry.
+- You also get visibility into LLMs and Model Context Protocol (MCP) servers running in your landscape, all in the same registry.
 
 4. **Performance & Observability:** How agents are performing (goal completion, policy conformance, business impact)
 - Agent behavior and usage patterns
@@ -34,8 +35,7 @@ You also get visibility into LLMs and Model Context Protocol (MCP) servers runni
 Now let's check our Assistant in SAP Ai Agent Hub
 
 1. Navigate to https://de-6.leanix.net/SolutionExperience7ce8f
-Your Username is xp262-0XX@bestrunsap.com, where XX is your seat number. 
-Your Password is Acce$$teched26.
+Your Username: xp262-0XX@bestrunsap.com, where XX is your seat number. Your Password: Acce$$teched26
 <br>![](/exercises/ex5/images/Ex5_1.png)
 
 2. Press on **Ask Me Later**
