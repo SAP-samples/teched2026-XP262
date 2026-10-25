@@ -2,14 +2,14 @@
 
 The Agent Identity is a foundational concept within the SAP AI Agent Governance framework. It represents the identity artifacts required to authenticate, authorize, and govern AI agents operating within an SAP landscape. Just as human users require identity records to access enterprise systems, AI agents, whether built on SAP technology or by third parties, require a dedicated identity that defines their boundaries, permissions, and allowed interactions.
 
-SAP Cloud Identity Services acts as the central identity hub for both human identities and agent identities. By storing agent identities alongside human identities in the Identity Directory, enterprises gain a unified governance model that leverages existing IAM infrastructure including authentication, federation, identity provisioning, and authorization management—for the new class of autonomous AI actors.
+SAP Cloud Identity Services act as the central identity hub for both human identities and agent identities. By storing agent identities alongside human identities in the Identity Directory, enterprises gain a unified governance model that leverages existing IAM infrastructure including authentication, federation, identity provisioning, and authorization management—for the new class of autonomous AI actors.
 
 
 ## Architecture
 
 The following diagram shows the major components of the SAP Joule integration from an IAM perspective. SAP Cloud Identity Services (SCI) act as the central interface containing the SAP landscape relevant human identities and agent identities. SCI integrate with the SAP applications in scope in an SAP-managed way. This architecture is a key pillar in the Agent Governance framework for an SAP landscape.
 
-The Agent Identity is a mandatory requirement to ensure the secure authentication and authorization of AI Agents in an SAP landscape.
+The Agent Identity is a mandatory requirement to ensure the secure authentication and authorization of AI Agents within an SAP landscape.
 
 
 <br>![](/exercises/ex0/images/Ex0_1.png)
@@ -31,7 +31,7 @@ SAP Joule is the brand which contains several SAP Business AI aspects like the c
 1. The user accesses SAP Joule through an application client (mobile or desktop).
 2. SAP Joule authenticates the user via SAP Cloud Identity Services (with optional federation to a corporate Identity Provider).
 3. The Joule orchestrator determines which agents and functions the user is authorized to invoke.
-4. Conversations are routed to the appropriate agents, with each interaction governed by the user's identity and the agent's permitted scope.
+4. Conversations are directed to the right agents, and each interaction is limited by the user’s access rights and what the agent is allowed to do.
 
 ### Agent Gateway for A2A Communication
 The SAP Agent Gateway is a technical component wihtin the customer landscape but besides the A2A external endpoint transparent for the customer and fully SAP-managed. It provides the communication fabric for agent interactions:
