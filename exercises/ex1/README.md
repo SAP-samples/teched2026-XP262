@@ -19,7 +19,7 @@ Your Username:  xp262-0XX@bestrunsap.com, where XX is your seat number. Your Pas
 4. Notice that the answer is not quite useful...
 <br>![](/exercises/ex1/images/Ex1_3.png)
 
-What could be the reason ? 
+What could be the reason? 
 
 ## 1.2 Agent Access Governance – Three Layers of Access Assessment
 
