@@ -1,4 +1,5 @@
 # XP262 - Governing AI with identity and access management
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2026-XP262)](https://api.reuse.software/info/github.com/SAP-samples/teched2026-XP262)
 
 ## Description
 
